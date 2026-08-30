@@ -1,21 +1,20 @@
 {
-  "name": "app",
+  "name": "foliocraft-pro",
+  "private": true,
   "version": "1.0.0",
-  "description": "Guide complet - Maîtrise de l'IA en 2026",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mouba2287-dev/AI-.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/mouba2287-dev/AI-/issues"
-  },
-  "homepage": "https://github.com/mouba2287-dev/AI-#readme"
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.0.0",
+    "vite": "^5.1.4"
+  }
 }
